@@ -19,6 +19,7 @@ function App() {
               <Route path='/' exact component={page.Home} />
               <Route path='/Forms' component={page.Form} />
               <Route path='/Contact' component={page.Contact} />
+              <Route path='/Confirmation' component={page.Confirmation} />
             </Switch>
           </Container>
           <Footer />

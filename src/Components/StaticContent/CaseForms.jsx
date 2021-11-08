@@ -22,7 +22,7 @@ const useStyles = makeStyles({
     tableRow: {
         height: '10'
       },
-      tableCell: {
+    tableCell: {
         padding: "0px 10px",
         borderBottom: "none"
     }
@@ -51,7 +51,7 @@ export default function CaseForms() {
                         <FolderOpenRoundedIcon />
                     </TableCell>
                     <TableCell className={classes.tableCell}>
-                        <Link href="/Forms"><a>Electronic Claim Form</a></Link>
+                        <Link to="/Forms"><a>Electronic Claim Form</a></Link>
                     </TableCell>
                 </TableRow>
                 

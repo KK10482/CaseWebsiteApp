@@ -11,6 +11,7 @@ import userControls from '../../Components/userControls/usercontrols';
 import FormDetails from '../../Components/StaticContent/FormDetails';
 import * as ClaimData from '../../Data/ClaimData';
 import { fontSize } from '@mui/system';
+import { useHistory } from "react-router-dom";
 
 const initialFormValues = {
     firstName: '',
@@ -140,6 +141,8 @@ export default function Forms() {
         handleInputChange
     } = useForm(initialFormValues, true, validate);
 
+    const history = useHistory();
+
     const handleSubmit = e => {
         e.preventDefault();
         values.signature = ClaimData.GetSignature();
@@ -149,7 +152,8 @@ export default function Forms() {
                 isOpen: true,
                 message: 'Claim Submitted Successfully',
                 type: 'success'
-            })
+            });
+            history.push("/Confirmation");
         }
     }
 
