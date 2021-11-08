@@ -1,0 +1,33 @@
+.Footer {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    background-color: #154c79;
+    color: #e7e7e7; 
+    min-height:20px;  
+    clear: both;
+ }
+
+ .Footer p {
+    font-size: 14px;
+    text-align: center;
+ }
+
+ @media only screen and (max-width: 850px){
+    .Footer p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .Footer p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .Footer p{
+        font-size: 10px;
+    }
+}
