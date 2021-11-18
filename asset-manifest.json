@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CaseWebsiteApp/static/css/main.762ed27b.chunk.css",
+    "main.js": "/CaseWebsiteApp/static/js/main.c8f0097a.chunk.js",
+    "main.js.map": "/CaseWebsiteApp/static/js/main.c8f0097a.chunk.js.map",
+    "runtime-main.js": "/CaseWebsiteApp/static/js/runtime-main.27c15235.js",
+    "runtime-main.js.map": "/CaseWebsiteApp/static/js/runtime-main.27c15235.js.map",
+    "static/js/2.ef8d5664.chunk.js": "/CaseWebsiteApp/static/js/2.ef8d5664.chunk.js",
+    "static/js/2.ef8d5664.chunk.js.map": "/CaseWebsiteApp/static/js/2.ef8d5664.chunk.js.map",
+    "static/js/3.958d42c8.chunk.js": "/CaseWebsiteApp/static/js/3.958d42c8.chunk.js",
+    "static/js/3.958d42c8.chunk.js.map": "/CaseWebsiteApp/static/js/3.958d42c8.chunk.js.map",
+    "index.html": "/CaseWebsiteApp/index.html",
+    "static/css/main.762ed27b.chunk.css.map": "/CaseWebsiteApp/static/css/main.762ed27b.chunk.css.map",
+    "static/js/2.ef8d5664.chunk.js.LICENSE.txt": "/CaseWebsiteApp/static/js/2.ef8d5664.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27c15235.js",
+    "static/js/2.ef8d5664.chunk.js",
+    "static/css/main.762ed27b.chunk.css",
+    "static/js/main.c8f0097a.chunk.js"
+  ]
+}
