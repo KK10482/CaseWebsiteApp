@@ -1,8 +1,7 @@
 {
   "name": "CaseWebsiteApp",
-  "version": "0.1.0",
-  "private": true,
   "homepage": "http://KK10482.github.io/CaseWebsiteApp",
+  "version": "0.1.0",
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
