@@ -116,8 +116,7 @@ export default function AboutCase() {
                     If the Settlement does not become effective, the litigation will continue.
                 </Typography>
                 <Typography gutterBottom variant="body2" component="div" className={classes.aboutContent} >
-                    <strong>This is only a summary.</strong> For more information, please visit
-                    <a href={CaseInfo.CaseURL}>www.titaniumcobaltsettlement.com.</a>,
+                    <strong>This is only a summary.</strong> For more information, please visit <a href={CaseInfo.CaseURL}>www.titaniumcobaltsettlement.com</a>,
                     or contact the Settlement Administrator at {CaseInfo.TollFree} or by writing to Starke v. Black & Decker, {CaseInfo.Address1},
                     {CaseInfo.Address1}
                 </Typography>
